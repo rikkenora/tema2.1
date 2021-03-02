@@ -3,17 +3,23 @@
 <html lang="da">
 <head>
 	<meta charset="utf-8">
-	
+
 	<title>DMI vejret</title>
-	
+
 	<meta name="robots" content="All">
 	<meta name="author" content="Udgiver">
 	<meta name="copyright" content="Information om copyright">
 
 	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 	<link href="css/styles.css" rel="stylesheet" type="text/css">
-	
+
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+	<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
 </head>
 
 <body style="background-color: #d7e5f3">
@@ -34,9 +40,32 @@
 		</div>
 		<div class="p-4">
 			<div class="mitdmi">
-				<button type="button" class="btn text-light" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				<button type="button" class="btn text-light" data-toggle="modal" aria-haspopup="true" aria-expanded="false" data-target=#exampleModalCenter>
 					<b>Mit DMI</b>
 				</button>
+
+				<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered text-light" role="document">
+						<div class="modal-content" style="background-color: #33496e">
+							<div class="modal-header">
+								<p class="modal-title" id="exampleModalLongTitle" >1/5</p>
+								<button type="button" class="btn close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true" ><i class="fas fa-times" style="color: white"></i></span>
+								</button>
+							</div>
+							<div class="modal-body">
+								<h5><b>Personliggør din side</b></h5>
+								Kom i gang med at personliggøre din side, efter dine behov.Tryk dig igennem guide, for at se hvordan du gør.
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-light" style="color: #3E5C83"><i class="fas fa-arrow-right"></i></button>
+
+
+							</div>
+						</div>
+					</div>
+				</div>
+
 			</div>
 		</div>
 		<div class="p-2">
@@ -47,6 +76,7 @@
 			</div>
 		</div>
 	</div>
+
 	<p class="text-center">Dine gemte byer</p>
 </nav>
 
@@ -199,7 +229,7 @@
 
 			</div>
 	</div>
-			<!-- Copyright -->
+	<!-- Copyright -->
 
 
 
@@ -207,5 +237,5 @@
 </footer>
 <!-- Footer -->
 
- </body>
+</body>
 </html>
