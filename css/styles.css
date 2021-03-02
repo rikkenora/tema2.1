@@ -1,2 +1,32 @@
 
 /*# sourceMappingURL=styles.css.map */
+body {
+    font-family: "HelveticaNeue";
+}
+input.form-control {
+    background: none;
+    border-radius: 30px;
+    margin-left: 30px;
+    border-right: none;
+}
+.p-2 {
+    margin-left: 20px;
+}
+.btn{
+    border-radius: 30px;
+    border-left: none;
+}
+.burger{
+    margin-right: 20px;
+    margin-top: 12px;
+    background: none;
+}
+
+.navbar-form{
+    margin-top: 2px;
+}
+
+#header{
+    width: 100%;
+    z-index: 100;
+}
