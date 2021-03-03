@@ -1,8 +1,27 @@
 
 /*# sourceMappingURL=styles.css.map */
 body {
-    font-family: "HelveticaNeue";
 }
+a:link {
+    text-decoration:none;
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    text-decoration:none;
+}
+
+/* mouse over link */
+a:hover {
+    text-decoration:none;
+}
+
+/* selected link */
+a:active {
+    text-decoration:none;
+}
+
 input.form-control {
     background: none;
     border-radius: 30px;
@@ -37,7 +56,7 @@ img {
     height: auto;
 }
 #closemenu{
-    margin-right: 3px;
+    margin-right: 13px;
 }
 
 .navbar-form{
