@@ -30,3 +30,9 @@ input.form-control {
     width: 100%;
     z-index: 100;
 }
+
+img {
+    display: block;
+    max-width: 100% !important;
+    height: auto;
+}
